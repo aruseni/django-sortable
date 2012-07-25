@@ -11,8 +11,8 @@
     $(document).ready(function($) {
         if($('#result_list').length == 1)         // Grappelli not installed
             table = $('#result_list')[0];
-        else if($('.changelist-results').length == 1) // Grappelli installed
-            table = $('.changelist-results')[0];
+        else if($('.grp-changelist-results').length == 1) // Grappelli installed
+            table = $('.grp-changelist-results')[0];
         else {                                         // Unrecognized admin
             console.info("No sortable table found in the view, exiting");
             return;
